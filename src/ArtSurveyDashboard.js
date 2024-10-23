@@ -1,11 +1,3 @@
-<head>
-  <title>Pensamiento Matemático - Proyecto Segundo Parcial</title>
-  <meta property="og:title" content="Pensamiento Matemático - Proyecto Segundo Parcial" />
-  <meta property="og:description" content="Descripción de tu aplicación." />
-  <meta property="og:image" content="%PUBLIC_URL%/ruta-a-tu-imagen.jpg" />
-  <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-</head>
-
 import React, { useState } from 'react';
 import {
   BarChart, Bar,
@@ -15,6 +7,13 @@ import {
   Cell, ResponsiveContainer
 } from 'recharts';
 
+<head>
+  <title>Pensamiento Matemático - Proyecto Segundo Parcial</title>
+  <meta property="og:title" content="Pensamiento Matemático - Proyecto Segundo Parcial" />
+  <meta property="og:description" content="Descripción de tu aplicación." />
+  <meta property="og:image" content="%PUBLIC_URL%/ruta-a-tu-imagen.jpg" />
+  <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+</head>
 
 const ArtSurveyDashboard = () => {
   const [selectedChart, setSelectedChart] = useState('all');
