@@ -200,7 +200,8 @@ const ArtSurveyDashboard = () => {
         <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
 {/* Espacio para Logo */}
 <div className="w-32 h-32  rounded flex items-center justify-center ">
-  <img src={'/hostia.png'} alt="Logo" className="max-w-full max-h-full" />
+<img src={`${process.env.PUBLIC_URL}/images/hostia.png`} alt="Logo de la Preparatoria" className="w-full h-full object-contain" />
+
 </div>
 
           
