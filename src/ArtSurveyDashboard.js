@@ -13,10 +13,10 @@ const ArtSurveyDashboard = () => {
 
   const surveyData = {
     q1: [
-      { name: 'Pintura', value: 12 },
+      { name: 'Pintura', value: 11 },
       { name: 'Música', value: 10 },
       { name: 'Escultura', value: 8 },
-      { name: 'Danza', value: 5 },
+      { name: 'Danza', value: 6 },
       { name: 'Fotografía', value: 5 }
     ],
     q2: [
